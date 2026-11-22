@@ -33,6 +33,7 @@ bug in these parsers is reachable from the network or from a USB cable, which is
 Patches I send to the affected projects:
 
 - [debevv/nanoMODBUS#138](https://github.com/debevv/nanoMODBUS/pull/138): bounds checks for CVE-2026-71254, CVE-2026-71255 and CVE-2026-71256 (open)
+- [hathach/tinyusb#4593](https://github.com/hathach/tinyusb/pull/4593): ignore an unbalanced END_COLLECTION in the HID report descriptor parser, with a regression test (open)
 
 Technical write-ups and crash PoCs: [Shukhrat-03/cve-writeups](https://github.com/Shukhrat-03/cve-writeups).
 
