@@ -30,9 +30,11 @@ bug in these parsers is reachable from the network or from a USB cable, which is
 
 ### Upstream fixes
 
-Patches I send to the affected projects are listed here as they are opened.
+Patches I send to the affected projects:
 
-<!-- PR list: filled in after the pull requests are opened -->
+- [debevv/nanoMODBUS#138](https://github.com/debevv/nanoMODBUS/pull/138): bounds checks for CVE-2026-71254, CVE-2026-71255 and CVE-2026-71256 (open)
+
+Technical write-ups and crash PoCs: [Shukhrat-03/cve-writeups](https://github.com/Shukhrat-03/cve-writeups).
 
 ### Method
 
